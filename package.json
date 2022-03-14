@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@svgr/cli": "^6.2.1"
+  },
+  "scripts": {
+    "svgr": "svgr test.svg --config-file svgo.config.js --out-dir=dist"
+  }
+}

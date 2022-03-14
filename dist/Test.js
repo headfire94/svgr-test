@@ -2,7 +2,13 @@ import * as React from "react";
 import Svg, { Defs, LinearGradient, Stop, G, Path } from "react-native-svg";
 
 const SvgTest = (props) => (
-  <Svg width={40} height={40} xmlns="http://www.w3.org/2000/svg" {...props}>
+  <Svg
+    width={40}
+    height={40}
+    viewBox="0 0 40 40"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
     <Defs>
       <LinearGradient
         x1="19.031%"

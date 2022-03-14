@@ -1,7 +1,7 @@
 
 module.exports = {
   native: true,
-  svgo: {
+  svgoConfig: {
     plugins: [
       {
         name: 'preset-default',
